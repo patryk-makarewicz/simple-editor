@@ -9,3 +9,16 @@ body {
   justify-content: center;
   min-height: 100vh;
 }
+
+.form {
+  display: block;
+}
+
+.form__label {
+  display: block;
+}
+
+.form__textarea {
+  width: 300px;
+  height: 300px;
+}
