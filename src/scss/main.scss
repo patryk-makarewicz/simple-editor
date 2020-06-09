@@ -17,9 +17,44 @@ body {
 
 .form__label {
   display: block;
+  font-size: 36px;
 }
 
 .form__textarea {
+  margin-top: 16px;
   width: 500px;
   height: 300px;
+  border-radius: 16px;
+  font-size: 22px;
+  padding: 16px;
+}
+
+.button__load {
+  background-color: rgb(3, 3, 180);
+  width: 80px;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-left: 350px;
+  font-size: 22px;
+  font-family: 'Exo 2', sans-serif;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+}
+
+.button__save {
+  background-color: green;
+  width: 80px;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  margin-left: 16px;
+  font-size: 22px;
+  font-family: 'Exo 2', sans-serif;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
 }
