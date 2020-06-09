@@ -2,7 +2,7 @@
 
 # Simple editor 
 
-Welcome in my simple editor.
+Welcome in my simple editor to save and load localstorage.
 
 ## How to use it?
 
