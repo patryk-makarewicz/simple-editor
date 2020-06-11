@@ -31,12 +31,26 @@ body {
   resize: none;
 }
 
+.button__clear {
+  background-color: red;
+  width: 80px;
+  align-items: center;
+  color: white;
+  margin-left: 253px;
+  font-size: 22px;
+  font-family: 'Exo 2', sans-serif;
+  border-width: 0;
+  border-style: none;
+  border-color: none;
+  border-image: none;
+}
+
 .button__load {
   background-color: rgb(3, 3, 180);
   width: 80px;
   align-items: center;
   color: white;
-  margin-left: 350px;
+  margin-left: 16px;
   font-size: 22px;
   font-family: 'Exo 2', sans-serif;
   border-width: 0;
