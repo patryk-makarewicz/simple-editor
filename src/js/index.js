@@ -13,7 +13,6 @@ inputEntry.value = result;
 
 const buttonSave = document.querySelector('.button__save--js');
 
-console.log(buttonSave);
 
 buttonSave.addEventListener('click', () => {
     localStorage.setItem('entry', inputEntry.value);
