@@ -11,11 +11,13 @@
       <form class="form">
       <p>
         <label class="form__label">My editor</label>
-        <textarea id="story" name="story" class="form__textarea form__textarea--js"></textarea >
+        <textarea aria-label="write your thoughts" class="form__textarea form__textarea--js"></textarea >
       </p>
-      <button class="button__clear button__clear--js" aria-label="Clear">clear</button>
-      <button class="button__load button__load--js" aria-label="Load">load</button>
-      <button class="button__save button__save--js" aria-label="Save">save</button>
+      <div class="button">
+        <button class="button__clear button__clear--js" aria-label="Clear">clear</button>
+        <button class="button__load button__load--js" aria-label="Load">load</button>
+        <button class="button__save button__save--js" aria-label="Save">save</button>
+      </div>
     </form>
     </main>
   </body>

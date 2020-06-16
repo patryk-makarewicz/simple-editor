@@ -14,61 +14,60 @@ body {
 .form {
   display: block;
   padding: 4px;
+  &__label {
+    display: block;
+    font-size: 36px;
+  }
+  &__textarea {
+    margin-top: 16px;
+    width: 500px;
+    height: 300px;
+    border-radius: 16px;
+    font-size: 22px;
+    padding: 16px;
+    resize: none;
+  }
 }
 
-.form__label {
-  display: block;
-  font-size: 36px;
-}
-
-.form__textarea {
-  margin-top: 16px;
-  width: 500px;
-  height: 300px;
-  border-radius: 16px;
-  font-size: 22px;
-  padding: 16px;
-  resize: none;
-}
-
-.button__clear {
-  background-color: red;
-  width: 80px;
-  align-items: center;
-  color: white;
-  margin-left: 253px;
-  font-size: 22px;
-  font-family: 'Exo 2', sans-serif;
-  border-width: 0;
-  border-style: none;
-  border-color: none;
-  border-image: none;
-}
-
-.button__load {
-  background-color: rgb(3, 3, 180);
-  width: 80px;
-  align-items: center;
-  color: white;
-  margin-left: 16px;
-  font-size: 22px;
-  font-family: 'Exo 2', sans-serif;
-  border-width: 0;
-  border-style: none;
-  border-color: none;
-  border-image: none;
-}
-
-.button__save {
-  background-color: green;
-  width: 80px;
-  align-items: center;
-  color: white;
-  margin-left: 16px;
-  font-size: 22px;
-  font-family: 'Exo 2', sans-serif;
-  border-width: 0;
-  border-style: none;
-  border-color: none;
-  border-image: none;
+.button {
+  display: flex;
+  justify-content: flex-end;
+  &__clear {
+    background-color: red;
+    width: 80px;
+    align-items: center;
+    color: white;
+    font-size: 22px;
+    font-family: 'Exo 2', sans-serif;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+  }
+  &__load {
+    background-color: rgb(3, 3, 180);
+    width: 80px;
+    align-items: center;
+    color: white;
+    margin-left: 16px;
+    font-size: 22px;
+    font-family: 'Exo 2', sans-serif;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+  }
+  &__save {
+    background-color: green;
+    width: 80px;
+    align-items: center;
+    color: white;
+    margin-left: 16px;
+    font-size: 22px;
+    font-family: 'Exo 2', sans-serif;
+    border-width: 0;
+    border-style: none;
+    border-color: none;
+    border-image: none;
+  }
 }
