@@ -1,7 +1,14 @@
 import '../scss/main.scss';
 
 
+const inputEntry = document.querySelector('.form__textarea--js');  
+const buttonSave = document.querySelector('.button__save--js');
+const buttonLoad = document.querySelector('.button__load--js');
+const buttonClear = document.querySelector('.button__clear--js');
+
 const entry = localStorage.getItem('entry');
+
+
 let result = '';
 
 if (entry) {
@@ -10,29 +17,19 @@ if (entry) {
 }
 
 
-const inputEntry = document.querySelector('.form__textarea--js');  //pobranie tekstu
-inputEntry.value = result;
-
-
-
-const buttonSave = document.querySelector('.button__save--js');     //przpięcie button save
-
-buttonSave.addEventListener('click', () => {                        //na klik zapisz do localStorage
+buttonSave.addEventListener('click', (e) => {  
+    e.preventDefault();                     
     localStorage.setItem('entry', inputEntry.value);
 });
 
 
-
-const buttonLoad = document.querySelector('.button__load--js');     //przypięcie button load
-
-buttonLoad.addEventListener('click', () => {
-    localStorage.getItem('entry', inputEntry.value);                //na klik załaduj z localStorage
+buttonLoad.addEventListener('click', (e) => {
+    e.preventDefault(); 
+    inputEntry.value = localStorage.getItem('entry');
 });
 
 
-
-const buttonClear = document.querySelector('.button__clear--js');     //przypięcie button clear
-
-buttonClear.addEventListener('click', () => {
-    localStorage.removeItem('entry', inputEntry.value);                //wyczyszczenie localStorage
+buttonClear.addEventListener('click', (e) => {
+    e.preventDefault(); 
+    localStorage.removeItem('entry', inputEntry.value);                
 });
