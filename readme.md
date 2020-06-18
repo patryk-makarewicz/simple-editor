@@ -1,18 +1,19 @@
 ![cover](./gh/cover.png)
 
-# Simple editor 
+# General info 
 
 Welcome in my simple editor to save and load localstorage.
 
+## Languages
+
+* HTML 5
+* CSS 3
+* JavaScript ECMAScript 2015+ (ES6+)
+
 ## How to use it?
 
-Click on `Use this template` button to generate a new repository based on this starter kit. After that clone it to your computer, go to the project directory in console and type `npm install`.
+Clone it to your computer, go to the project directory in console and type `npm install`.
 
-## Available scripts
+## Available script
 
 `npm run start` - runs development mode
-
-`npm run build` - runs build process for production
-
-`npm run publish` - runs build process and publish the page using `gh-pages` branch
-
