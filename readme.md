@@ -4,11 +4,12 @@
 
 Welcome in my simple editor to save and load localstorage.
 
-## Languages
+## What I've used here:
 
-* HTML 5
-* CSS 3
-* JavaScript ECMAScript 2015+ (ES6+)
+✔ Semantic HTML5 <br/>
+✔ CSS3 and SASS <br/>
+✔ BEM methodology <br/>
+✔ JavaScript ECMAScript 2015+ (ES6+)
 
 ## How to use it?
 
