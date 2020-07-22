@@ -20,6 +20,7 @@ if (entry) {
 buttonSave.addEventListener('click', (e) => {  
     e.preventDefault();                     
     localStorage.setItem('entry', inputEntry.value);
+    location.reload();
 });
 
 
@@ -31,5 +32,6 @@ buttonLoad.addEventListener('click', (e) => {
 
 buttonClear.addEventListener('click', (e) => {
     e.preventDefault(); 
-    localStorage.removeItem('entry', inputEntry.value);                
+    localStorage.removeItem('entry', inputEntry.value);
+    location.reload();                
 });
