@@ -11,6 +11,12 @@ Welcome in my simple editor to save and load localstorage.
 ✔ BEM methodology <br/>
 ✔ JavaScript ECMAScript 2015+ (ES6+)
 
+## View:
+
+To watch click [here]
+
+[here]: https://patryk-makarewicz.github.io/simple-editor/
+
 ## How to use it?
 
 Clone it to your computer, go to the project directory in console and type `npm install`.
